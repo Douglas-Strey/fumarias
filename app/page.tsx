@@ -356,7 +356,7 @@ export default function Home() {
                     Está decidido.
                   </h1>
                   <p className="max-w-2xl text-xl leading-9 text-orange-100/82">
-                    No dia <strong className="text-amber-200">{readableDate}</strong>, às <strong className="text-amber-200">{time}</strong>, estaremos te buscando. Não tente fugir.
+                    No dia <strong className="text-amber-200">{readableDate}</strong>, às <strong className="text-amber-200">{time}</strong>, estaremos fumando. Não tente fugir.
                   </p>
                 </div>
 
