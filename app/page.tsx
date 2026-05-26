@@ -77,7 +77,7 @@ export default function Home() {
 
   const readableDate = formatDate(date);
   const noLabel = evasiveLabels[noAttempts % evasiveLabels.length];
-  const whatsappText = `Confirmado. Eu estarei livre para fumar um kretek no dia ${readableDate} às ${time}. Pode vir me buscar.`;
+  const whatsappText = `Confirmado. Eu estarei livre para fumar um kretek no dia ${readableDate} às ${time}.`;
   const whatsappUrl = `https://wa.me/5547997838550?text=${encodeURIComponent(whatsappText)}`;
 
   const minDate = useMemo(() => new Date().toISOString().split("T")[0], []);
